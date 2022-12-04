@@ -1,33 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html{
+    height: -webkit-fill-availabale;
+}
+
 body{
-    margin: 0;
-    padding: 0;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: -webkit-fill-availabale;
+    position: relative;
     font-family: "Roboto", sans-serif;
-    background: linear-gradient(90deg, #fff 50%, #4a1010 50%);
+    background: linear-gradient(90deg, #000 0%, #196829 100%);
+    padding: 70px 10px;
+    margin: 10px 0px;
+    justify-content: center;
+    flex-direction: column;
+}
+    bottom: 1px;
+
+    
 }
 input{
     display: none;
+    
 }
 img{
     width: 100%;
     height: 100%;
+    bottom: 100px;
+    right: 10px;
+    display: flex;
+    float: right;
+
+}
+.flipbookpages1{
+    position: relative;
+    bottom: 0px;
+    right: 400px
 }
 .book{
     display: flex;
+    float: right;
+    bottom:1px;
+    right: 3px
 }
 #cover{
-    width: 421px;
+    width: 422px;
     height: 595px;
+    
 }
 .flip-book{
     width: 421px;
     height: 595px;
     position: relative;
     perspective: 1500px;
+    bottom: -1px;
+    right:400px
 }
 .flip{
     width: 100%;
@@ -55,6 +81,7 @@ p{
     box-sizing: border-box;
     padding: 0 13px;
     box-shadow: inset 20px 0 50px rgba(0,0,0,0.5) 0 2px 5px rgba(0,0,0,.5);
+
 }
 .back{
     position: absolute;
@@ -69,18 +96,59 @@ p{
 }
 .next-btn{
     position: absolute;
-    bottom: 13px;
+    bottom: 7px;
     right: 13px;
     cursor: pointer;
     color: #000;
 }
 .back-btn{
     position: absolute;
-    bottom: 13px;
-    right: 100px;
+    bottom: 7px;
+    right: 95px;
     cursor: pointer;
     color: #fff;
 }
+
+.btn {
+  position: absolute;
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  bottom: 230px;
+  left: 730px;
+
+}
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+.instagram {
+  position: absolute;
+  margin: 10px 10px;
+  padding-inline: 480px 10px;
+  bottom: 250px;
+  
+}
+
+.youtube  {
+  position: absolute;
+  margin: 10px 10px;
+  padding-inline: 420px 10px;
+  bottom: 250px;
+
+
+}
+
+.MV-23 {
+    position: relative;
+    column-span: white;
+    bottom: 10px;
+    left: 750px;
+}
+
 #p1{
     z-index: 3;    
 }
