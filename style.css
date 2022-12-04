@@ -3,7 +3,7 @@ body{
     height: 100vh;
     font-family: "Roboto", sans-serif;
     background: linear-gradient(90deg, #000 0%, #196829 100%);
-    padding: 10px 2px;
+    padding: 10px 1px;
     margin: 8px 420px;
     background-color:white;
     
@@ -15,7 +15,7 @@ input{
 img{
     width: 100%;
     height: 100%;
-    bottom: -100px;
+    bottom: 100px;
     right: 10px;
     display: flex;
     float: right;
@@ -27,8 +27,8 @@ img{
 }
 .book{
     display: flex;
-    bottom: 0px;
-    right: -4px
+    bottom: 100px;
+    right: 400px
 }
 #cover{
     width: 421px;
@@ -100,44 +100,37 @@ p{
 .btn1 {
   position: relative;
   background-color: black ;
-  border: none;
   color: white;
-  padding: 10px 30px;
+  padding: 10px 5px;
   cursor: pointer;
   font-size: 20px;
-  bottom: -750px;
-  right: -287px;
+  bottom: -710px;
+  right: -318px;
 
-  
-
-}
-btn1:link { 
-    text-decoration: none;
 }
 
 /* Darker background on mouse-over */
 .btn1:hover {
-  background-color: #000 ;
+  background-color: DodgerBlue ;
 }
 
 .instagram {
   position: relative;
   color: #000;
-  padding: 0px 435px;
-  cursor: pointer;
-  font-size: 20px;
-  bottom: -763px;
+  padding: 1px 5px;
+  font-size: 15px;
+  bottom: -685px;
   right: -410spx;
 }
 
-.youtube {
+.youtube  {
   position: relative;
   color: #000;
-  padding: 0px 30px;
+  padding: 0px 40px;
   cursor: pointer;
-  font-size: 20px;
-  bottom: -720px;
-  right: -340px;
+  font-size: 15px;
+  bottom: -655px;
+  right: -15px;
 }
 
 #p1{
