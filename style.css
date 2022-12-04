@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body{
     height: 100vh;
+    position: relative;
     font-family: "Roboto", sans-serif;
     background: linear-gradient(90deg, #000 0%, #196829 100%);
-    padding: 10px 1px;
-    margin: 8px 420px;
-    background-color:white;
+    padding: 70px 10px;
+    margin: 10px 0px;
+    justify-content: center;
+    flex-direction: column;
+}
+    bottom: 1px;
+
     
 }
 input{
@@ -22,16 +27,18 @@ img{
 
 }
 .flipbookpages1{
+    position: relative;
     bottom: 0px;
-    right: -42px
+    right: 400px
 }
 .book{
     display: flex;
-    bottom: 100px;
-    right: 400px
+    float: right;
+    bottom:1px;
+    right: 3px
 }
 #cover{
-    width: 421px;
+    width: 422px;
     height: 595px;
     
 }
@@ -40,8 +47,8 @@ img{
     height: 595px;
     position: relative;
     perspective: 1500px;
-    bottom: 0px;
-    right: 0px
+    bottom: -1px;
+    right:400px
 }
 .flip{
     width: 100%;
@@ -96,41 +103,45 @@ p{
     cursor: pointer;
     color: #fff;
 }
-/* Style buttons */
-.btn1 {
-  position: relative;
-  background-color: black ;
+
+.btn {
+  position: absolute;
+  background-color: DodgerBlue;
+  border: none;
   color: white;
-  padding: 10px 5px;
+  padding: 5px 20px;
   cursor: pointer;
   font-size: 20px;
-  bottom: -710px;
-  right: -318px;
+  bottom: 230px;
+  left: 730px;
 
 }
-
-/* Darker background on mouse-over */
-.btn1:hover {
-  background-color: DodgerBlue ;
+.btn:hover {
+  background-color: RoyalBlue;
 }
 
 .instagram {
-  position: relative;
-  color: #000;
-  padding: 1px 5px;
-  font-size: 15px;
-  bottom: -685px;
-  right: -410spx;
+  position: absolute;
+  margin: 10px 10px;
+  padding-inline: 480px 10px;
+  bottom: 250px;
+  
 }
 
 .youtube  {
-  position: relative;
-  color: #000;
-  padding: 0px 40px;
-  cursor: pointer;
-  font-size: 15px;
-  bottom: -655px;
-  right: -15px;
+  position: absolute;
+  margin: 10px 10px;
+  padding-inline: 420px 10px;
+  bottom: 250px;
+
+
+}
+
+.MV-23 {
+    position: relative;
+    column-span: white;
+    bottom: 10px;
+    left: 750px;
 }
 
 #p1{
