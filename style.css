@@ -1,33 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body{
-    margin: 0;
-    padding: 0;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: "Roboto", sans-serif;
-    background: linear-gradient(90deg, #fff 50%, #4a1010 50%);
+    background: linear-gradient(90deg, #000 0%, #196829 100%);
+    padding: 10px 2px;
+    margin: 8px 420px;
+    background-color:white;
+    
 }
 input{
     display: none;
+    
 }
 img{
     width: 100%;
     height: 100%;
+    bottom: -100px;
+    right: 10px;
+    display: flex;
+    float: right;
+
+}
+.flipbookpages1{
+    bottom: 0px;
+    right: -42px
 }
 .book{
     display: flex;
+    bottom: 0px;
+    right: -4px
 }
 #cover{
     width: 421px;
     height: 595px;
+    
 }
 .flip-book{
     width: 421px;
     height: 595px;
     position: relative;
     perspective: 1500px;
+    bottom: 0px;
+    right: 0px
 }
 .flip{
     width: 100%;
@@ -55,6 +69,7 @@ p{
     box-sizing: border-box;
     padding: 0 13px;
     box-shadow: inset 20px 0 50px rgba(0,0,0,0.5) 0 2px 5px rgba(0,0,0,.5);
+
 }
 .back{
     position: absolute;
@@ -69,18 +84,62 @@ p{
 }
 .next-btn{
     position: absolute;
-    bottom: 13px;
+    bottom: 7px;
     right: 13px;
     cursor: pointer;
     color: #000;
 }
 .back-btn{
     position: absolute;
-    bottom: 13px;
-    right: 100px;
+    bottom: 7px;
+    right: 95px;
     cursor: pointer;
     color: #fff;
 }
+/* Style buttons */
+.btn1 {
+  position: relative;
+  background-color: black ;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  bottom: -750px;
+  right: -287px;
+
+  
+
+}
+btn1:link { 
+    text-decoration: none;
+}
+
+/* Darker background on mouse-over */
+.btn1:hover {
+  background-color: #000 ;
+}
+
+.instagram {
+  position: relative;
+  color: #000;
+  padding: 0px 435px;
+  cursor: pointer;
+  font-size: 20px;
+  bottom: -763px;
+  right: -410spx;
+}
+
+.youtube {
+  position: relative;
+  color: #000;
+  padding: 0px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  bottom: -720px;
+  right: -340px;
+}
+
 #p1{
     z-index: 3;    
 }
