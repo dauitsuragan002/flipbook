@@ -9,11 +9,12 @@ body{
     position: relative;
     font-family: "Roboto", sans-serif;
     background: linear-gradient(90deg, #000 0%, #196829 100%);
-    padding: 70px 0;
-    margin: 0 auto;
-    justify-content: initial ;
-    flex-direction: initial ;
+    padding: 70px 10px;
+    margin: 10px 0px;
+    justify-content: center;
+    flex-direction: column;
 }
+    bottom: 1px;
 
     
 }
@@ -78,7 +79,7 @@ p{
     left: 0;
     background-color: #fff;
     box-sizing: border-box;
-    padding: 0 auto;
+    padding: 0 13px;
     box-shadow: inset 20px 0 50px rgba(0,0,0,0.5) 0 2px 5px rgba(0,0,0,.5);
 
 }
@@ -114,10 +115,9 @@ p{
   border: none;
   color: white;
   padding: 5px 20px;
-  margin: 0px auto;
   cursor: pointer;
   font-size: 20px;
-  bottom: 230px;
+  bottom: 280px;
   left: 730px;
 
 }
@@ -127,26 +127,27 @@ p{
 
 .instagram {
   position: absolute;
-  margin: 10px auto;
-  padding-inline: 480px 10px;
-  bottom: 250px;
+  margin: 15px auto;
+  padding-inline: 490px 10px;
+  bottom: 200px;
   
 }
 
 .youtube  {
   position: absolute;
   margin: 10px auto;
-  padding-inline: 420px 10px;
-  bottom: 250px;
+  padding-inline: 450px 10px;
+  bottom: 205px;
 
 
 }
 
 .MV-23 {
-    position: relative;
+    position: fixed;
     column-span: white;
-    bottom: 10px;
+    bottom: 65px;
     left: 750px;
+   
 }
 
 #p1{
