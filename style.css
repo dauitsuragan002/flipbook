@@ -9,8 +9,8 @@ body{
     position: relative;
     font-family: "Roboto", sans-serif;
     background: linear-gradient(90deg, #000 0%, #196829 100%);
-    padding: 10px 70px;
-    margin: 10px 0px;
+    padding: 70px 10px;
+    margin: 70px 70px;
     justify-content: center;
     flex-direction: column;
 }
