@@ -14,12 +14,12 @@ body{
     justify-content: center;
     flex-direction: column;
 }
-    bottom: 1px;
+
 
     
 }
 input{
-    display: none;
+    display: grid;
     
 }
 img{
@@ -54,6 +54,7 @@ img{
     perspective: 1500px;
     bottom: -1px;
     right:400px
+    
 }
 .flip{
     width: 100%;
@@ -66,6 +67,7 @@ img{
     transform: rotateY(0deg);
     transition: .6s;
     color: #000;
+
 }
 p{
     font-size: 14px;
