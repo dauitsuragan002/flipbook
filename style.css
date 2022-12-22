@@ -27,7 +27,7 @@ img{
     width: 100%;
     height: 100%;
     bottom: 100px;
-    right: 10px;
+    right: 100px;
     display: flex;
     float: right;
 
@@ -205,15 +205,15 @@ p{
     width: 275px;
     height: 368px;
     }
-
 }
-@media only screen and (min-height: 452px) {
+
+@media only screen and (min-height: 423px) {
   .instagram {
-    top: 545px;
+    top: 525px;
     left: -440px;
    }
    .youtube {
-    top: 547px;
+    top: 527px;
     left: -440px;
    }
    .MV-23 {
@@ -227,19 +227,19 @@ p{
     width: 200px;
    }
    .flipbookpages1 {
-    left: 172px;
+    left: 186.5px;
     top: 80px;
-    width: 238px;
-    height: 340.5px;
+    width: 225px;
+    height: 335px;
     }
     .flip-book {
     font-size: 10px;
-    left: -11.5px;
+    left: -10.5px;
     top: 80px; 
-    width: 238px;
-    height: 340px;
+    width: 225px;
+    height: 335px;
     }
     .back-btn{
     bottom: 5px;
-    right: 56px;
+    right: 50px;
 }
