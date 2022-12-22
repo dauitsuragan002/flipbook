@@ -9,7 +9,8 @@ body{
     position: relative;
     font-family: "Roboto", sans-serif;
     background: linear-gradient(90deg, #000 0%, #196829 100%);
-    padding: 70px 10px;
+    padding-width: 2em;
+    padding:60px 0px;
     margin: 10px 0px;
     justify-content: center;
     flex-direction: column;
@@ -44,19 +45,19 @@ img{
 }
 #cover{
     width: 422px;
-    height: 595px;
+    height: 596px;
     
 }
-.flip-book{
-    width: 421px;
-    height: 595px;
+.flip-book {
+    width: 422px;
+    height: 597.5px;
     position: relative;
     perspective: 1500px;
-    bottom: -1px;
+    bottom: 0px;
     right:400px
     
 }
-.flip{
+.flip {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -73,7 +74,7 @@ p{
     font-size: 14px;
     line-height: 24px;
 }
-.front{
+.front {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -112,15 +113,15 @@ p{
 }
 
 .btn {
-  position: absolute;
+  position: relative;
   background-color: DodgerBlue;
   border: none;
   color: white;
-  padding: 5px 20px;
   cursor: pointer;
   font-size: 20px;
-  bottom: 280px;
-  left: 730px;
+  bottom: 60px;
+  top: 690px;
+  left: 740px;
 
 }
 .btn:hover {
@@ -130,16 +131,16 @@ p{
 .instagram {
   position: absolute;
   margin: 15px auto;
-  padding-inline: 490px 10px;
-  bottom: 200px;
+  padding-inline: 505px 10px;
+  bottom: 210px;
   
 }
 
 .youtube  {
   position: absolute;
   margin: 10px auto;
-  padding-inline: 450px 10px;
-  bottom: 205px;
+  padding-inline: 465px 10px;
+  bottom: 215px;
 
 
 }
@@ -147,8 +148,8 @@ p{
 .MV-23 {
     position: fixed;
     column-span: white;
-    bottom: 65px;
-    left: 750px;
+    bottom: 50px;
+    left: 785px;
    
 }
 
@@ -172,4 +173,39 @@ p{
 #c3:checked ~ .flip-book #p3{
     transform: rotateY(-180deg);
     z-index: 3;    
+}
+
+@media only screen and (max-width: 1272px) {
+  .instagram {
+    top: 885px;
+    left: -350px;
+   }
+   .youtube {
+    top: 887px;
+    left: -350px;
+   }
+   .MV-23 {
+    top: 1000px;
+    left: 314px;
+   }
+   .btn {
+    top: 830px;
+    left: 345px;
+    height: 5%;
+   }
+   .flipbookpages1 {
+    left: 19px;
+    top: 190px;
+    width: 380px;
+    height: 525px;
+    }
+    .flip-book {
+    left: -23px;
+    top: 190px; 
+    width: 380px;
+    height: 525px;
+    }
+    .book {
+    left: -10px;
+    }
 }
