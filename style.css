@@ -207,7 +207,7 @@ p{
     }
 
 }
-@media only screen and (min-height: 457px) {
+@media only screen and (min-height: 452px) {
   .instagram {
     top: 545px;
     left: -440px;
@@ -227,14 +227,14 @@ p{
     width: 200px;
    }
    .flipbookpages1 {
-    left: 166px;
+    left: 172px;
     top: 80px;
     width: 238px;
     height: 340.5px;
     }
     .flip-book {
     font-size: 10px;
-    left: -17.5px;
+    left: -11.5px;
     top: 80px; 
     width: 238px;
     height: 340px;
