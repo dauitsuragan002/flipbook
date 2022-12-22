@@ -205,7 +205,41 @@ p{
     width: 275px;
     height: 368px;
     }
-    .book {
-    left: -10px;
+
+}
+@media only screen and (min-height: 457px) {
+  .instagram {
+    top: 545px;
+    left: -440px;
+   }
+   .youtube {
+    top: 547px;
+    left: -440px;
+   }
+   .MV-23 {
+    top: 610px;
+    left: 165px;
+   }
+   .btn {
+    top: 490px;
+    left: 218px;
+    font-size: 10px;
+    width: 200px;
+   }
+   .flipbookpages1 {
+    left: 166px;
+    top: 80px;
+    width: 238px;
+    height: 340.5px;
     }
+    .flip-book {
+    font-size: 10px;
+    left: -17.5px;
+    top: 80px; 
+    width: 238px;
+    height: 340px;
+    }
+    .back-btn{
+    bottom: 5px;
+    right: 56px;
 }
