@@ -175,35 +175,35 @@ p{
     z-index: 3;    
 }
 
-@media only screen and (max-width: 1272px) {
+@media only screen and (max-width: 823px) {
   .instagram {
-    top: 885px;
-    left: -350px;
+    top: 625px;
+    left: -440px;
    }
    .youtube {
-    top: 887px;
-    left: -350px;
+    top: 627px;
+    left: -440px;
    }
    .MV-23 {
-    top: 1000px;
-    left: 314px;
+    top: 800px;
+    left: 210px;
    }
    .btn {
-    top: 830px;
-    left: 345px;
-    height: 5%;
+    top: 580px;
+    left: 260px;
+
    }
    .flipbookpages1 {
-    left: 19px;
-    top: 190px;
-    width: 380px;
-    height: 525px;
+    left: 125px;
+    top: 120px;
+    width: 270px;
+    height: 370px;
     }
     .flip-book {
-    left: -23px;
-    top: 190px; 
-    width: 380px;
-    height: 525px;
+    left: -25.5px;
+    top: 120px; 
+    width: 275px;
+    height: 368px;
     }
     .book {
     left: -10px;
