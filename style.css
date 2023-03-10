@@ -116,16 +116,12 @@ p{
   border: none;
   color: white;
   cursor: pointer;
-  font-size: 20px;
-  bottom: 6px;
-  top: 69px;
-  left: 70px;
-
+  max-width: 15vh;
+  min-height: 2vh;
 }
 .btn:hover {
   background-color: RoyalBlue;
 }
-
 .instagram {
   position: absolute;
   margin: 15px auto;
@@ -172,39 +168,6 @@ p{
     transform: rotateY(-180deg);
     z-index: 3;    
 }
-
-@media only screen and (min-width: 823px) {
-  .instagram {
-    top: 625px;
-    left: -440px;
-   }
-   .youtube {
-    top: 627px;
-    left: -440px;
-   }
-   .MV-23 {
-    top: 800px;
-    left: 210px;
-   }
-   .btn {
-    top: 580px;
-    left: 260px;
-
-   }
-   .flipbookpages1 {
-    left: 125px;
-    top: 120px;
-    width: 270px;
-    height: 370px;
-    }
-    .flip-book {
-    left: -25.5px;
-    top: 120px; 
-    width: 275px;
-    height: 368px;
-    }
-}
-
 @media only screen and (min-height: 423px) {
   .instagram {
     top: 525px;
@@ -216,23 +179,23 @@ p{
    }
    .MV-23 {
     top: 610px;
-    left: 165px;
+    left: 140px;
    }
    .btn {
     top: 490px;
-    left: 218px;
+    left: 180px;
     font-size: 10px;
-    width: 200px;
-   }
+    width: 50%
+}
    .flipbookpages1 {
-    left: 186.5px;
+    left: 193.1px;
     top: 80px;
     width: 225px;
     height: 335px;
     }
     .flip-book {
-    font-size: 10px;
-    left: -10.5px;
+    font-size: 8px;
+    left: -3.5px;
     top: 80px; 
     width: 225px;
     height: 335px;
@@ -252,11 +215,13 @@ p{
   }
   .btn {
     margin-top: 20px;
-    margin-left: 440px;
+    margin-left: 530px;
+    width: 50%;
+    min-width: 100px;
   }
   .MV-23 {
     margin-top: 20px;
-    margin-left: 500px;
+    margin-left: 532px;
   }
    .flipbookpages1 {
     margin-top: 20px;
