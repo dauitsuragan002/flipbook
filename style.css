@@ -16,13 +16,11 @@ body{
     flex-direction: column;
 }
 
-
-    
-}
 input{
     display: grid;
     
 }
+
 img{
     width: 100%;
     height: 100%;
@@ -34,13 +32,13 @@ img{
 }
 .flipbookpages1{
     position: relative;
-    bottom: 0px;
-    right: 400px
+    bottom: 10000px;
+    right: 4000px
 }
 .book{
     display: flex;
     float: right;
-    bottom:1px;
+    bottom:10px;
     right: 3px
 }
 #cover{
@@ -119,9 +117,9 @@ p{
   color: white;
   cursor: pointer;
   font-size: 20px;
-  bottom: 60px;
-  top: 690px;
-  left: 740px;
+  bottom: 6px;
+  top: 69px;
+  left: 70px;
 
 }
 .btn:hover {
@@ -175,7 +173,7 @@ p{
     z-index: 3;    
 }
 
-@media only screen and (max-width: 823px) {
+@media only screen and (min-width: 823px) {
   .instagram {
     top: 625px;
     left: -440px;
@@ -243,3 +241,28 @@ p{
     bottom: 5px;
     right: 50px;
 }
+@media only screen and (min-width: 1400px) {
+  .instagram {
+    margin-top: 30px;
+    margin-left: 510px;
+  }
+  .youtube {
+    margin-top: 28px;
+    margin-left: 515px;
+  }
+  .btn {
+    margin-top: 20px;
+    margin-left: 440px;
+  }
+  .MV-23 {
+    margin-top: 20px;
+    margin-left: 500px;
+  }
+   .flipbookpages1 {
+    margin-top: 20px;
+    margin-left: -525px;
+ }
+  .flip {
+    margin-top: 20px;
+    margin-left: -525px;
+ }
