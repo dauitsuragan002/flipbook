@@ -104,10 +104,14 @@ p{
 }
 .back-btn{
     position: absolute;
-    bottom: 7px;
-    right: 95px;
+    text-transform: 10px;
+    width: 200px;
+    height: 9px;
     cursor: pointer;
     color: #fff;
+    top: 317px;
+
+
 }
 
 .btn {
